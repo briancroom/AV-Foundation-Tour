@@ -1,0 +1,44 @@
+==Capture==
+
+AVCaptureSession
+	- Central "bus" for wiring up data flow
+	- Add inputs
+	- Add outputs
+	- Configure output delegates to enable data delivery
+		- Raw video frames
+		- Raw audio samples
+		- Write directly to movie file
+		- "Metadata"
+	- Watch camera with AVCaptureVideoPreviewLayer
+
+AVCaptureDevice
+AVCaptureDeviceFormat
+AVCaptureInput
+AVCaptureDeviceInput
+
+AVCaptureOutput
+AVCaptureAudioDataOutput
+AVCaptureFileOutput
+AVCaptureMovieFileOutput
+AVCaptureMetadataOutput
+AVCaptureStillImageOutput
+AVCaptureVideoDataOutput
+
+AVCaptureConnection
+
+AVCaptureVideoPreviewLayer
+
+
+AVCaptureAudioDataOutputSampleBufferDelegate
+AVCaptureFileOutputRecordingDelegate
+AVCaptureMetadataOutputObjectsDelegate
+AVCaptureVideoDataOutputSampleBufferDelegate
+
+[Captured Metadata]
+- Detect faces, various sorts of QR codes
+
+AVCaptureMetadataOutput
+AVCaptureMetadataOutputObjectsDelegate
+AVMetadataObject
+AVMetadataFaceObject
+AVMetadataMachineReadableCodeObject

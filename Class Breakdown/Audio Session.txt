@@ -1,0 +1,11 @@
+==Audio Session==
+
+- Configure how the app interacts with other apps using audio
+
+AVAudioSession
+AVAudioSessionChannelDescription
+AVAudioSessionPortDescription
+AVAudioSessionRouteDescription
+
+AVAudioSessionDelegate
+	- Notifies of audio interruptions

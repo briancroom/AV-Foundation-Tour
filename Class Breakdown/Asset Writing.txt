@@ -1,0 +1,9 @@
+==Asset Writing==
+
+- Only access to hardware H.264 encoder
+- Fill a buffer with bitmap/audio data to generate frames
+
+AVAssetWriter
+AVAssetWriterInput
+AVAssetWriterInputGroup
+AVAssetWriterInputPixelBufferAdaptor

@@ -1,0 +1,9 @@
+==Asset Reading==
+
+AVAssetReader
+AVAssetReaderAudioMixOutput
+AVAssetReaderOutput
+AVAssetReaderTrackOutput
+AVAssetReaderVideoCompositionOutput
+
+- Only direct access to hardware H.264 decoder

@@ -1,0 +1,14 @@
+==Miscellaneous==
+
+AVAssetExportSession
+	- Encapsulates asset reading, processing, asset writing
+	- Queueing
+
+AVAssetImageGenerator
+	- Extract thumbnails for specific times in an asset
+
+AVSynchronizedLayer
+	- Present Core Animation content timed to match asset playback progress
+
+AVOutputSettingsAssistant
+	- Takes a generic size/format preset and produces detailed settings for an asset writer

@@ -1,0 +1,21 @@
+==Mixing/Compositing==
+
+- Usable with:
+	AVAssetExportSession
+	AVPlayerItem
+	AVAssetReader
+
+AVAudioMix
+AVAudioMixInputParameters
+AVMutableAudioMix
+AVMutableAudioMixInputParameters
+
+AVVideoComposition / AVMutableVideoComposition
+AVVideoCompositionCoreAnimationTool
+AVVideoCompositionInstruction / AVMutableVideoCompositionInstruction
+AVVideoCompositionLayerInstruction / AVMutableVideoCompositionLayerInstruction
+AVVideoCompositionRenderContext
+AVAsynchronousVideoCompositionRequest
+
+AVVideoCompositing
+AVVideoCompositionValidationHandling

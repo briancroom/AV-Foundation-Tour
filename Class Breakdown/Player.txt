@@ -1,0 +1,33 @@
+==Player==
+
+- AVAsset -> AVPlayerItem -> AVPlayer
+- View video content with AVPlayerLayer
+
+AVPlayer / AVQueuePlayer
+AVPlayerItem
+AVPlayerItemTrack
+
+- Receive media data in addition to rendered playback
+	AVPlayerItemOutput
+	AVPlayerItemLegibleOutput
+	AVPlayerItemVideoOutput
+
+
+AVTextStyleRule
+
+AVPlayerItemAccessLog
+AVPlayerItemAccessLogEvent
+AVPlayerItemErrorLog
+AVPlayerItemErrorLogEvent
+
+[Media Selection]
+- Choosing between tracks of different languages, camera angles, accessibility aids
+AVPlayerMediaSelectionCriteria
+AVMediaSelectionGroup
+AVMediaSelectionOption
+
+
+AVPlayerItemLegibleOutputPushDelegate
+AVPlayerItemLegibleOutputPushDelegate
+AVPlayerItemOutputPullDelegate
+AVPlayerItemOutputPushDelegate

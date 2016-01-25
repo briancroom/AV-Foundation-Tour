@@ -1,0 +1,7 @@
+==Speech Synthesis==
+
+AVSpeechSynthesisVoice
+AVSpeechSynthesizer
+AVSpeechUtterance
+
+AVSpeechSynthesizerDelegate

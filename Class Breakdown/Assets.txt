@@ -1,0 +1,30 @@
+==Assets==
+
+- Represents media content
+- AVURLAsset representing a file or network stream
+- AVComposition combines elements from other assets
+
+AVAsset
+AVURLAsset
+AVAssetTrack
+AVAssetTrackGroup
+AVAssetTrackSegment
+AVComposition / AVMutableComposition
+AVCompositionTrack / AVMutableCompositionTrack
+AVCompositionTrackSegment
+
+AVAsynchronousKeyValueLoading
+
+[Asset Metadata]
+- Access to iTunes-style metadata
+AVMetadataItem / AVMutableMetadataItem
+AVTimedMetadataGroup / AVMutableTimedMetadataGroup
+AVMetadataItemFilter
+
+[Resource Loading]
+- Can hook into data loading to implement e.g. DRM decoding
+AVAssetResourceLoader
+AVAssetResourceLoadingContentInformationRequest
+AVAssetResourceLoadingDataRequest
+AVAssetResourceLoadingRequest
+AVAssetResourceLoaderDelegate
